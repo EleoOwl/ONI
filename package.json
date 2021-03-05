@@ -1,0 +1,25 @@
+{
+  "name": "oni",
+  "version": "1.0.0",
+  "description": "Pocket study assistant",
+  "main": "coremoduleAPI.js",
+  "scripts": {
+    "test": "npm install express --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EleoOwl/ONI.git"
+  },
+  "keywords": [
+    "oni"
+  ],
+  "author": "Eleo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EleoOwl/ONI/issues"
+  },
+  "homepage": "https://github.com/EleoOwl/ONI#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
