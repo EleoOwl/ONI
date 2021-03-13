@@ -1,0 +1,1 @@
+#postgre script for getting lecture by date and type

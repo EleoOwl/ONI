@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/EleoOwl/ONI#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg-promise": "^10.9.5"
   }
 }

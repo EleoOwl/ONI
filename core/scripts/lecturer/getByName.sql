@@ -1,0 +1,1 @@
+#postgre script for getting lecturer by name
