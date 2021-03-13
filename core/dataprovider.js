@@ -25,7 +25,7 @@
 
 function GetLectureById(id){
 	let lecture = {
-		id: 123,
+		id: id,
 		date: '05.03.2021',
 		dayofweek: 'Friday',
 		type:'sdvon'
@@ -36,8 +36,8 @@ function GetLectureById(id){
 function GetLectureByDateAndType(date, type){
 	let lecture = {
 		id: 123,
-		date: '05.03.2021',
-		dayofweek: 'Friday',
+		date: date,
+		dayofweek: type,
 		type:'sdvon'
 	};
 	return lecture;
@@ -45,7 +45,7 @@ function GetLectureByDateAndType(date, type){
 
 function GetLecturerByName(name){
 	let lecturer = {
-		name : 'pidoras',
+		name : name,
 		lections: [
 		{
 			ololo:'AAAA'
@@ -60,6 +60,7 @@ function GetLecturerByName(name){
 
 function GetHomeworkById(id){
 	let homework = {
+		id: id,
 		dz: 'SOS'
 	};
 	return homework;
